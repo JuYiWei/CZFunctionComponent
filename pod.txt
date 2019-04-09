@@ -1,0 +1,11 @@
+
+
+
+
+
+
+pod spec lint CZFunctionComponent.podspec --use-libraries --allow-warnings --verbose
+pod trunk push CZFunctionComponent.podspec --use-libraries --allow-warnings --verbose
+
+
+pod search CZFunctionComponent --simple
