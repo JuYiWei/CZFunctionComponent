@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CZLibraryMacro.h"
+#import "CZFunctionComponentConstant.h"
 
 typedef NS_ENUM(NSInteger, CZDateToolType) {
     

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CZLibraryMacro.h"
+#import "CZFunctionComponentConstant.h"
 
 // 设备类型
 typedef NS_ENUM(NSUInteger, CZAdaptDeviceType) {
