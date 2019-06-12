@@ -19,7 +19,6 @@
 		844244D7225C490A00EB432E /* CZDateTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 844244D1225C490A00EB432E /* CZDateTransform.m */; };
 		844244D8225C490A00EB432E /* CZAdaptTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 844244D3225C490A00EB432E /* CZAdaptTool.m */; };
 		844244D9225C490A00EB432E /* CZDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 844244D4225C490A00EB432E /* CZDevice.m */; };
-		844244DA225C490B00EB432E /* CZLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 844244D5225C490A00EB432E /* CZLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		844244BD225C48B600EB432E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844244CA225C48DD00EB432E /* CZToolsHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZToolsHeader.h; sourceTree = "<group>"; };
 		844244CB225C48DD00EB432E /* CZLibraryMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLibraryMacro.h; sourceTree = "<group>"; };
-		844244CC225C490A00EB432E /* CZLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLog.h; sourceTree = "<group>"; };
 		844244CD225C490A00EB432E /* CZAdaptTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAdaptTool.h; sourceTree = "<group>"; };
 		844244CE225C490A00EB432E /* CZDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZDevice.h; sourceTree = "<group>"; };
 		844244CF225C490A00EB432E /* CZRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZRandom.m; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 		844244D2225C490A00EB432E /* CZDateTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZDateTransform.h; sourceTree = "<group>"; };
 		844244D3225C490A00EB432E /* CZAdaptTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZAdaptTool.m; sourceTree = "<group>"; };
 		844244D4225C490A00EB432E /* CZDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZDevice.m; sourceTree = "<group>"; };
-		844244D5225C490A00EB432E /* CZLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,8 +157,6 @@
 				844244CE225C490A00EB432E /* CZDevice.h */,
 				844244D4225C490A00EB432E /* CZDevice.m */,
 				844244CB225C48DD00EB432E /* CZLibraryMacro.h */,
-				844244CC225C490A00EB432E /* CZLog.h */,
-				844244D5225C490A00EB432E /* CZLog.m */,
 				844244D0225C490A00EB432E /* CZRandom.h */,
 				844244CF225C490A00EB432E /* CZRandom.m */,
 				844244CA225C48DD00EB432E /* CZToolsHeader.h */,
@@ -300,7 +295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8442449C225C48B400EB432E /* ViewController.m in Sources */,
-				844244DA225C490B00EB432E /* CZLog.m in Sources */,
 				844244A7225C48B500EB432E /* main.m in Sources */,
 				84424499225C48B400EB432E /* AppDelegate.m in Sources */,
 				844244D8225C490A00EB432E /* CZAdaptTool.m in Sources */,
