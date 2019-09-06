@@ -1,20 +1,33 @@
 //
-//  CZFunctionComponentConstant.h
+//  CZFunctionMacro.h
 //  CZFunctionComponent
 //
-//  Created by juyiwei on 2019/6/12.
+//  Created by juyiwei on 2019/9/6.
 //  Copyright © 2019 居祎炜. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef CZFunctionMacro_h
+#define CZFunctionMacro_h
 
-// 循环引用
-#ifndef CZWeakify
-#define CZWeakify(o)    autoreleasepool{} __weak typeof(o) o##Weak = o;
+// tag 基础值偏移
+#define CZ_TAG_CONTROLLER_BASE    100000
+#define CZ_TAG_VIEW_BASE          200000
+#define CZ_TAG_OTHER_BASE         300000
+
+// Log
+#ifdef DEBUG
+#define DLog(format, ...) printf("> class: <%p %s:(%d) > \n  method: %s \n%s\n\n_", self, [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, __PRETTY_FUNCTION__, [[NSString stringWithFormat:(format), ##__VA_ARGS__] UTF8String] )
+#else
+#define DLog(...)
 #endif
 
-#ifndef CZStrongify
-#define CZStrongify(o)  autoreleasepool{} __strong typeof(o) o = o##Weak;
+// 循环引用
+#ifndef CZ_WEAKIFY
+#define CZ_WEAKIFY(o)    autoreleasepool{} __weak typeof(o) o##Weak = o;
+#endif
+
+#ifndef CZ_STRONGIFY
+#define CZ_STRONGIFY(o)  autoreleasepool{} __strong typeof(o) o = o##Weak;
 #endif
 
 // 单例头宏(ARC .h)
@@ -41,12 +54,5 @@ return singleton;                                       \
 #endif
 
 
-NS_ASSUME_NONNULL_BEGIN
 
-FOUNDATION_EXTERN NSString *const CZFunctionComponentDomain;
-
-@interface CZFunctionComponentConstant : NSObject
-
-@end
-
-NS_ASSUME_NONNULL_END
+#endif /* CZFunctionMacro_h */

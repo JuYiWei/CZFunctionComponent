@@ -18,11 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    if (CZScreenPhone_Xr_828x1792) {
-        NSLog(@"xr");
-    } else {
-        
-    }
     
 }
 

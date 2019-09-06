@@ -9,11 +9,13 @@
 #ifndef CZFunctionComponentHeader_h
 #define CZFunctionComponentHeader_h
 
-#import "CZFunctionComponentConstant.h"
+#import "CZFunctionMacro.h"
+#import "CZFunctionConstant.h"
+
 
 #import "CZAdaptTool.h"
 #import "CZDateTransform.h"
-#import "CZDevice.h"
-#import "CZRandom.h"
+#import "CZTest.h"
+
 
 #endif /* CZFunctionComponentHeader_h */
