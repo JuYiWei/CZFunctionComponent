@@ -18,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"%@", [CZTest randomIdentifier]);
+    NSLog(@"%@", [CZTest randomNumberIdentifierWithLength:10]);
+    
+    
+    [CZTest randomChineseString];
     
 }
 

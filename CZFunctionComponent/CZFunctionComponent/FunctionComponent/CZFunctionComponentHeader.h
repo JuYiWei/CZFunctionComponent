@@ -15,7 +15,6 @@
 
 #import "CZAdaptTool.h"
 #import "CZDateTransform.h"
-#import "CZTest.h"
 
 
 #endif /* CZFunctionComponentHeader_h */

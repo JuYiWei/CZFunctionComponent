@@ -2,9 +2,9 @@
 Pod::Spec.new do |s|
 
   s.name         = "CZFunctionComponent"
-  s.version      = "0.0.4"
-  s.summary      = "cz self CZFunctionComponent summary"
-  s.description  = "cz self CZFunctionComponent description"
+  s.version      = "0.0.5"
+  s.summary      = "cz self CZFunctionComponent"
+  s.description  = "function component"
   s.homepage     = "https://github.com/JuYiWei/CZFunctionComponent"
   s.license      = "MIT"
   s.author       = { "juyw" => "757832801@qq.com" }
